@@ -1,6 +1,6 @@
-📋 Lista de Ejercicios
+# 📋 Lista de Ejercicios
 
-1-20: Estructura HTML5 y Texto
+## 1-20: Estructura HTML5 y Texto
 
 [ ] 001: Configuración de documento base con <!DOCTYPE html>, <html lang="es"> y metaetiquetas utf-8.
 
@@ -42,7 +42,7 @@
 
 [ ] 020: Documento completo con estructura semántica estricta sin el uso de elementos <div>.
 
-21-40: Multimedia y Tablas
+## 21-40: Multimedia y Tablas
 
 [ ] 021: Inserción de imágenes con atributos opcionales alt, title, loading="lazy" y decoding="async".
 
@@ -84,7 +84,8 @@
 
 [ ] 040: Galería multimedia combinando imágenes con descripción semántica y reproductores nativos.
 
-41-60: Formularios HTML5 Nativos
+## 40-60: Formularios HTML5 Nativos
+
 [ ] 041: Formulario básico de contacto con <form>, <label> vinculados e <input type="text">.
 
 [ ] 042: Campos con validación de tipo nativo: type="email", type="tel" y type="url".
@@ -125,7 +126,8 @@
 
 [ ] 060: Formulario de encuesta con escalas numéricas, selectores múltiples y áreas de comentarios.
 
-61-80: Accesibilidad Web (a11y)
+## 61-80: Accesibilidad Web (a11y)
+
 [ ] 061: Definición de la estructura general mediante roles de navegación principales (role="main", role="navigation").
 
 [ ] 062: Botón de salto de línea directo al contenido principal (Skip to main content).
@@ -166,7 +168,8 @@
 
 [ ] 080: Auditoría de accesibilidad completa sobre una página corporativa corregida sin errores.
 
-81-100: Fundamentos de CSS
+## 81-100: Fundamentos de CSS
+
 [ ] 081: Vinculación de estilos externos, internos y declaración de reglas con selectores de etiqueta.
 
 [ ] 082: Uso de selectores de clase (.clase), de id (#id) y selector universal (*).
