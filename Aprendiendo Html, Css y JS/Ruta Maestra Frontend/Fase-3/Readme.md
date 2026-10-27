@@ -1,68 +1,93 @@
 # ⚡ Fase 3: DOM, Eventos y Animaciones CSS (201 - 300)
 
-En la Fase 3 convertirás interfaces estáticas en experiencias interactivas y dinámicas mediante el API nativo del DOM de JavaScript y la orquestación de animaciones CSS fluidas a 60 FPS.
+Convierte interfaces estáticas en experiencias interactivas y dinámicas mediante el API nativo del DOM de JavaScript y la orquestación de animaciones CSS fluidas a 60 FPS.
 
-# 🎯 Objetivos de Aprendizaje
+Parte de la **[Ruta Maestra Frontend](../Readme.md)** — 500 ejercicios en 5 fases.
 
-Dominar la manipulación limpia del DOM (createElement, DocumentFragment, closest, matches).
+---
 
-Implementar el patrón de Delegación de Eventos (Event Delegation) para un rendimiento óptimo de memoria.
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
+[![DOM](https://img.shields.io/badge/DOM-API-blue?style=for-the-badge)](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model)
 
-Validar formularios en el cliente en tiempo real con RegEx y el API de validación nativa (checkValidity).
+---
 
-Construir transiciones y secuencias de @keyframes para microinteracciones visuales profesionales.
+## 📖 Tabla de Contenidos
 
-# 📂 Estructura de la Fase
+- [🎯 Objetivos de Aprendizaje](#-objetivos-de-aprendizaje)
+- [📂 Estructura de la Fase](#-estructura-de-la-fase)
+- [📋 Lista de Ejercicios](#-lista-de-ejercicios)
+- [🛠️ Estándar por Ejercicio](#️-estándar-por-ejercicio)
+- [📊 Progreso](#-progreso)
+- [🔗 Navegación](#-navegación)
 
-Fase-3-DOM-Eventos-Animaciones/
+---
+
+## 🎯 Objetivos de Aprendizaje
+
+Al completar esta fase serás capaz de:
+
+- Dominar la manipulación limpia del DOM (`createElement`, `DocumentFragment`, `closest`, `matches`).
+- Implementar el patrón de Delegación de Eventos (Event Delegation) para un rendimiento óptimo de memoria.
+- Validar formularios en el cliente en tiempo real con RegEx y el API de validación nativa (`checkValidity`).
+- Construir transiciones y secuencias de `@keyframes` para microinteracciones visuales profesionales.
+
+---
+
+## 📂 Estructura de la Fase
+
+```text
+Fase-3/
 ├── Readme.md (este archivo)
 ├── 01-Manipulacion-del-DOM/           # Ejercicios 201 al 230
 ├── 02-Gestion-de-Eventos/             # Ejercicios 231 al 260
 ├── 03-Validacion-de-Formularios/      # Ejercicios 261 al 280
 └── 04-Animaciones-y-Transiciones-CSS/ # Ejercicios 281 al 300
+```
 
+---
 
-# 📋 Lista de Ejercicios
+## 📋 Lista de Ejercicios
 
-201-230: Manipulación del DOM
+### 201-230: Manipulación del DOM
 
-[ ] 201: Selección de elementos individuales mediante document.getElementById y document.querySelector.
+[ ] 201: Selección de elementos individuales mediante `document.getElementById` y `document.querySelector`.
 
-[ ] 202: Selección de múltiples elementos mediante document.querySelectorAll y conversión de NodeList a Array.
+[ ] 202: Selección de múltiples elementos mediante `document.querySelectorAll` y conversión de NodeList a Array.
 
-[ ] 203: Modificación de contenido textual seguro mediante textContent e innerText.
+[ ] 203: Modificación de contenido textual seguro mediante `textContent` e `innerText`.
 
-[ ] 204: Modificación e inserción de marcados HTML mediante innerHTML.
+[ ] 204: Modificación e inserción de marcados HTML mediante `innerHTML`.
 
-[ ] 205: Lectura y modificación de atributos HTML estándar con getAttribute, setAttribute y removeAttribute.
+[ ] 205: Lectura y modificación de atributos HTML estándar con `getAttribute`, `setAttribute` y `removeAttribute`.
 
-[ ] 206: Manipulación de atributos de datos nativos mediante la propiedad dataset.
+[ ] 206: Manipulación de atributos de datos nativos mediante la propiedad `dataset`.
 
-[ ] 207: Gestión de clases CSS con classList: add, remove, toggle y contains.
+[ ] 207: Gestión de clases CSS con `classList`: `add`, `remove`, `toggle` y `contains`.
 
-[ ] 208: Modificación directa de estilos en línea mediante la propiedad style.
+[ ] 208: Modificación directa de estilos en línea mediante la propiedad `style`.
 
-[ ] 209: Creación e inserción de nuevos elementos dinámicos mediante createElement y appendChild.
+[ ] 209: Creación e inserción de nuevos elementos dinámicos mediante `createElement` y `appendChild`.
 
-[ ] 210: Insertar elementos en posiciones exactas mediante insertBefore e insertAdjacentElement.
+[ ] 210: Insertar elementos en posiciones exactas mediante `insertBefore` e `insertAdjacentElement`.
 
-[ ] 211: Eliminación de nodos del DOM mediante removeChild y el método moderno remove().
+[ ] 211: Eliminación de nodos del DOM mediante `removeChild` y el método moderno `remove()`.
 
-[ ] 212: Reemplazo directo de nodos usando replaceChild.
+[ ] 212: Reemplazo directo de nodos usando `replaceChild`.
 
-[ ] 213: Clonación de nodos simples y profundos con cloneNode(true).
+[ ] 213: Clonación de nodos simples y profundos con `cloneNode(true)`.
 
-[ ] 214: Navegación hacia nodos padres utilizando parentNode y parentElement.
+[ ] 214: Navegación hacia nodos padres utilizando `parentNode` y `parentElement`.
 
-[ ] 215: Navegación hacia elementos hijos utilizando children, firstElementChild y lastElementChild.
+[ ] 215: Navegación hacia elementos hijos utilizando `children`, `firstElementChild` y `lastElementChild`.
 
-[ ] 216: Navegación entre elementos hermanos utilizando previousElementSibling y nextElementSibling.
+[ ] 216: Navegación entre elementos hermanos utilizando `previousElementSibling` y `nextElementSibling`.
 
-[ ] 217: Búsqueda del ancestro más cercano que cumpla con un selector CSS mediante closest().
+[ ] 217: Búsqueda del ancestro más cercano que cumpla con un selector CSS mediante `closest()`.
 
-[ ] 218: Verificación de correspondencia de un elemento con un selector mediante matches().
+[ ] 218: Verificación de correspondencia de un elemento con un selector mediante `matches()`.
 
-[ ] 219: Creación eficiente de múltiples nodos fuera del DOM principal utilizando DocumentFragment.
+[ ] 219: Creación eficiente de múltiples nodos fuera del DOM principal utilizando `DocumentFragment`.
 
 [ ] 220: Generación dinámica de una lista sin ordenar a partir de un array de datos.
 
@@ -74,7 +99,7 @@ Fase-3-DOM-Eventos-Animaciones/
 
 [ ] 224: Alternador de visibilidad para mostrar u ocultar contraseña de un formulario.
 
-[ ] 225: Medición precisa de dimensiones de elementos en pantalla mediante getBoundingClientRect().
+[ ] 225: Medición precisa de dimensiones de elementos en pantalla mediante `getBoundingClientRect()`.
 
 [ ] 226: Modificación de variables CSS (Custom Properties) desde JavaScript en tiempo de ejecución.
 
@@ -86,44 +111,45 @@ Fase-3-DOM-Eventos-Animaciones/
 
 [ ] 230: Reordenación en vivo de elementos de una lista según su atributo de datos.
 
-231-260: Gestión de Eventos
-[ ] 231: Registro de escuchadores de eventos mediante addEventListener y eliminación con removeEventListener.
+### 231-260: Gestión de Eventos
 
-[ ] 232: Captura del objeto evento (e) para inspeccionar la propiedad target y type.
+[ ] 231: Registro de escuchadores de eventos mediante `addEventListener` y eliminación con `removeEventListener`.
 
-[ ] 233: Prevención de comportamientos predeterminados de navegador mediante preventDefault().
+[ ] 232: Captura del objeto evento (`e`) para inspeccionar la propiedad `target` y `type`.
 
-[ ] 234: Control de la propagación de eventos: detención con stopPropagation().
+[ ] 233: Prevención de comportamientos predeterminados de navegador mediante `preventDefault()`.
+
+[ ] 234: Control de la propagación de eventos: detención con `stopPropagation()`.
 
 [ ] 235: Implementación del patrón de Delegación de Eventos (Event Delegation) en listas dinámicas.
 
-[ ] 236: Detección de eventos de clic del ratón (click, dblclick, contextmenu).
+[ ] 236: Detección de eventos de clic del ratón (`click`, `dblclick`, `contextmenu`).
 
-[ ] 237: Manejo de eventos de entrada y salida del cursor (mouseenter, mouseleave, mouseover, mouseout).
+[ ] 237: Manejo de eventos de entrada y salida del cursor (`mouseenter`, `mouseleave`, `mouseover`, `mouseout`).
 
-[ ] 238: Rastreo de coordenadas en movimiento del puntero con mousemove.
+[ ] 238: Rastreo de coordenadas en movimiento del puntero con `mousemove`.
 
-[ ] 239: Control de focos de elementos con los eventos focus, blur, focusin y focusout.
+[ ] 239: Control de focos de elementos con los eventos `focus`, `blur`, `focusin` y `focusout`.
 
-[ ] 240: Captura de pulsaciones de teclas mediante los eventos keydown, keyup e inspección de e.key.
+[ ] 240: Captura de pulsaciones de teclas mediante los eventos `keydown`, `keyup` e inspección de `e.key`.
 
-[ ] 241: Detección de modificaciones en campos de texto en tiempo real con el evento input.
+[ ] 241: Detección de modificaciones en campos de texto en tiempo real con el evento `input`.
 
-[ ] 242: Detección de cambios de selección firmes mediante el evento change.
+[ ] 242: Detección de cambios de selección firmes mediante el evento `change`.
 
-[ ] 243: Manejo del evento submit en formularios para interceptar el procesamiento.
+[ ] 243: Manejo del evento `submit` en formularios para interceptar el procesamiento.
 
-[ ] 244: Detección del desplazamiento de la página usando el evento scroll sobre window.
+[ ] 244: Detección del desplazamiento de la página usando el evento `scroll` sobre `window`.
 
-[ ] 245: Detección del cambio de dimensión de la ventana de visualización mediante el evento resize.
+[ ] 245: Detección del cambio de dimensión de la ventana de visualización mediante el evento `resize`.
 
-[ ] 246: Manejo del evento de carga del DOM inicial mediante DOMContentLoaded.
+[ ] 246: Manejo del evento de carga del DOM inicial mediante `DOMContentLoaded`.
 
-[ ] 247: Creación y disparo explícito de eventos personalizados usando CustomEvent y dispatchEvent.
+[ ] 247: Creación y disparo explícito de eventos personalizados usando `CustomEvent` y `dispatchEvent`.
 
-[ ] 248: Detección de pérdida y recuperación de conexión a Internet (online y offline).
+[ ] 248: Detección de pérdida y recuperación de conexión a Internet (`online` y `offline`).
 
-[ ] 249: Arrastrar y soltar básico utilizando los eventos dragstart, dragover y drop.
+[ ] 249: Arrastrar y soltar básico utilizando los eventos `dragstart`, `dragover` y `drop`.
 
 [ ] 250: Creación de un menú contextual personalizado desactivando el menú nativo por clic derecho.
 
@@ -147,7 +173,8 @@ Fase-3-DOM-Eventos-Animaciones/
 
 [ ] 260: Dibujo libre básico en lienzo reutilizando eventos de arrastre del puntero.
 
-261-280: Validación de Formularios con JS
+### 261-280: Validación de Formularios con JS
+
 [ ] 261: Intercepción de formulario y validación campo a campo sin enviar la página.
 
 [ ] 262: Mensajes de error personalizados generados e insertados dinámicamente.
@@ -162,7 +189,7 @@ Fase-3-DOM-Eventos-Animaciones/
 
 [ ] 267: Formateador automático para números de teléfono en formato internacional.
 
-[ ] 268: Limitador dinámico de caracteres restantes en áreas de texto multilínea (<textarea>).
+[ ] 268: Limitador dinámico de caracteres restantes en áreas de texto multilínea (`<textarea>`).
 
 [ ] 269: Validación de límites de fecha impidiendo seleccionar días anteriores a la fecha actual.
 
@@ -176,9 +203,9 @@ Fase-3-DOM-Eventos-Animaciones/
 
 [ ] 274: Validación de casilla de verificación de términos y condiciones de servicio.
 
-[ ] 275: Uso de la API nativa de validación HTML5 desde JavaScript (checkValidity() y reportValidity()).
+[ ] 275: Uso de la API nativa de validación HTML5 desde JavaScript (`checkValidity()` y `reportValidity()`).
 
-[ ] 276: Modificación de los mensajes de error del sistema usando setCustomValidity().
+[ ] 276: Modificación de los mensajes de error del sistema usando `setCustomValidity()`.
 
 [ ] 277: Creación de un formulario por pasos (Multi-step Form) con validación independiente por etapa.
 
@@ -188,26 +215,27 @@ Fase-3-DOM-Eventos-Animaciones/
 
 [ ] 280: Formulario con procesamiento interactivo, animación de carga y confirmación de recepción.
 
-281-300: Animaciones y Transiciones CSS
-[ ] 281: Definición de transiciones suaves con transition-property, duration, timing-function y delay.
+### 281-300: Animaciones y Transiciones CSS
 
-[ ] 282: Efecto de escalado y elevación de tarjetas interactivas mediante :hover y transform: translateY().
+[ ] 281: Definición de transiciones suaves con `transition-property`, `duration`, `timing-function` y `delay`.
+
+[ ] 282: Efecto de escalado y elevación de tarjetas interactivas mediante `:hover` y `transform: translateY()`.
 
 [ ] 283: Botones con efectos de subrayado animado expansivo desde el centro.
 
-[ ] 284: Animación de rotación en 2D con transform: rotate() e inclinación con skew().
+[ ] 284: Animación de rotación en 2D con `transform: rotate()` e inclinación con `skew()`.
 
-[ ] 285: Transformaciones geométricas en espacio tridimensional utilizando perspective y rotateX/Y.
+[ ] 285: Transformaciones geométricas en espacio tridimensional utilizando `perspective` y `rotateX/Y`.
 
 [ ] 286: Tarjeta con efecto de giro sobre su propio eje (Flip Card) para mostrar contenido posterior.
 
-[ ] 287: Definición de secuencias complejas de animación mediante la regla clave @keyframes.
+[ ] 287: Definición de secuencias complejas de animación mediante la regla clave `@keyframes`.
 
 [ ] 288: Animación en bucle infinito para indicadores de carga circulantes (Loaders).
 
-[ ] 289: Indicador de carga de puntos suspensivos pulsantes usando retardos de animación (animation-delay).
+[ ] 289: Indicador de carga de puntos suspensivos pulsantes usando retardos de animación (`animation-delay`).
 
-[ ] 290: Efecto de aparición suave de elementos (Fade-In) combinando opacity y transform.
+[ ] 290: Efecto de aparición suave de elementos (Fade-In) combinando `opacity` y `transform`.
 
 [ ] 291: Menú desplegable animado con apertura y cierre graduales.
 
@@ -228,3 +256,36 @@ Fase-3-DOM-Eventos-Animaciones/
 [ ] 299: Ventana emergente (Modal) con animación de entrada elástica (Bounce In).
 
 [ ] 300: Integración completa de transiciones y animaciones en una interfaz de usuario interactiva.
+
+---
+
+## 🛠️ Estándar por Ejercicio
+
+Cada ejercicio debe contener su propia carpeta aislada para garantizar modularidad:
+
+```text
+ejercicio-201/
+├── index.html   # Estructura semántica HTML5
+├── styles.css   # Estilos específicos del ejercicio
+├── app.js       # Lógica JavaScript (si aplica)
+└── README.md    # Enunciado, conceptos clave, trampas comunes y soluciones
+```
+
+---
+
+## 📊 Progreso
+
+- [ ] Ejercicios 201-230: Manipulación del DOM
+- [ ] Ejercicios 231-260: Gestión de Eventos
+- [ ] Ejercicios 261-280: Validación de Formularios con JS
+- [ ] Ejercicios 281-300: Animaciones y Transiciones CSS
+- [ ] **Fase 3 completa (201 - 300): [0%]**
+
+---
+
+## 🔗 Navegación
+
+- [← Volver a la Ruta Maestra Frontend](../Readme.md)
+- [📁 Fase 2: Layouts y Fundamentos JS →](./Fase-2/Readme.md)
+- [📁 Fase 4: JS Asíncrono y Web APIs →](./Fase-4/Readme.md)
+- [🏠 Índice principal del repositorio](../../Readme.md)

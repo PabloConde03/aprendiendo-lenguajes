@@ -1,46 +1,72 @@
 # 🌐 Fase 4: JS Asíncrono, Web APIs y Componentes UI (301 - 400)
 
-En la Fase 4 abordarás la comunicación con servidores mediante HTTP y APIs REST, la persistencia en el navegador, las capacidades nativas avanzadas de los navegadores modernos y la creación de componentes UI complejos y accesibles.
+Aborda la comunicación con servidores mediante HTTP y APIs REST, la persistencia en el navegador, las capacidades nativas avanzadas de los navegadores modernos y la creación de componentes UI complejos y accesibles.
 
-🎯 Objetivos de Aprendizaje
+Parte de la **[Ruta Maestra Frontend](../Readme.md)** — 500 ejercicios en 5 fases.
 
-Comprender el Event Loop de JavaScript, promesas y la sintaxis async/await con control riguroso de errores (try/catch, response.ok).
+---
 
-Implementar peticiones seguras con fetch (GET, POST, PUT, DELETE, AbortController, headers de autenticación).
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![Fetch API](https://img.shields.io/badge/Fetch%20API-ASYNC-green?style=for-the-badge)](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
+[![Web APIs](https://img.shields.io/badge/Web%20APIs-Native-blue?style=for-the-badge)](https://developer.mozilla.org/es/docs/Web/API)
 
-Explotar Web APIs modernas: Web Storage, Geolocation, Clipboard, Canvas 2D e IntersectionObserver.
+---
 
-Construir componentes de interfaz reutilizables cumpliendo patrones a11y (Modales, Pestañas, Carruseles, Datepickers).
+## 📖 Tabla de Contenidos
 
-📂 Estructura de la Fase
-Plaintext
-Fase-4-Asincronia-APIs/
+- [🎯 Objetivos de Aprendizaje](#-objetivos-de-aprendizaje)
+- [📂 Estructura de la Fase](#-estructura-de-la-fase)
+- [📋 Lista de Ejercicios](#-lista-de-ejercicios)
+- [🛠️ Estándar por Ejercicio](#️-estándar-por-ejercicio)
+- [📊 Progreso](#-progreso)
+- [🔗 Navegación](#-navegación)
+
+---
+
+## 🎯 Objetivos de Aprendizaje
+
+Al completar esta fase serás capaz de:
+
+- Comprender el Event Loop de JavaScript, promesas y la sintaxis `async/await` con control riguroso de errores (`try/catch`, `response.ok`).
+- Implementar peticiones seguras con `fetch` (GET, POST, PUT, DELETE, `AbortController`, cabeceras de autenticación).
+- Explotar Web APIs modernas: Web Storage, Geolocation, Clipboard, Canvas 2D e `IntersectionObserver`.
+- Construir componentes de interfaz reutilizables cumpliendo patrones a11y (Modales, Pestañas, Carruseles, Datepickers).
+
+---
+
+## 📂 Estructura de la Fase
+
+```text
+Fase-4/
 ├── Readme.md (este archivo)
 ├── 01-Asincronia-y-Fetch-API/         # Ejercicios 301 al 330
 ├── 02-Web-APIs-del-Navegador/        # Ejercicios 331 al 360
 └── 03-Componentes-UI-Interactivos/   # Ejercicios 361 al 400
+```
 
-📋 Lista de Ejercicios
+---
 
-301-330: Asincronía y Fetch API
+## 📋 Lista de Ejercicios
+
+### 301-330: Asincronía y Fetch API
 
 [ ] 301: Fundamentos del bucle de eventos (Event Loop), pila de ejecución y cola de tareas en JS.
 
-[ ] 302: Manejo de la asincronía mediante temporizadores nativos setTimeout y setInterval.
+[ ] 302: Manejo de la asincronía mediante temporizadores nativos `setTimeout` y `setInterval`.
 
 [ ] 303: Manejo de callbacks tradicionales y resolución del problema de anidación (Callback Hell).
 
-[ ] 304: Creación de una Promesa personalizada (new Promise((resolve, reject) => {})).
+[ ] 304: Creación de una Promesa personalizada (`new Promise((resolve, reject) => {})`).
 
-[ ] 305: Consumo de Promesas encadenadas utilizando los métodos .then(), .catch() y .finally().
+[ ] 305: Consumo de Promesas encadenadas utilizando los métodos `.then()`, `.catch()` y `.finally()`.
 
-[ ] 306: Conversión de funciones asíncronas tradicionales mediante la sintaxis async y await.
+[ ] 306: Conversión de funciones asíncronas tradicionales mediante la sintaxis `async` y `await`.
 
-[ ] 307: Captura de errores en código asíncrono utilizando bloques try...catch.
+[ ] 307: Captura de errores en código asíncrono utilizando bloques `try...catch`.
 
-[ ] 308: Solicitudes HTTP de tipo GET consumiendo una API pública mediante la API fetch().
+[ ] 308: Solicitudes HTTP de tipo GET consumiendo una API pública mediante la API `fetch()`.
 
-[ ] 309: Conversión de la respuesta HTTP a formato JSON nativo (response.json()).
+[ ] 309: Conversión de la respuesta HTTP a formato JSON nativo (`response.json()`).
 
 [ ] 310: Renderizado dinámico de tarjetas de productos utilizando datos recuperados de una API externa.
 
@@ -52,21 +78,21 @@ Fase-4-Asincronia-APIs/
 
 [ ] 314: Manejo visual de estados de carga (Loading Spinners) durante las solicitudes de red.
 
-[ ] 315: Gestión de errores de red o códigos HTTP de fallo (ej. 404, 500) usando response.ok.
+[ ] 315: Gestión de errores de red o códigos HTTP de fallo (ej. 404, 500) usando `response.ok`.
 
-[ ] 316: Configuración de cabeceras HTTP personalizadas (Headers) en solicitudes de consulta.
+[ ] 316: Configuración de cabeceras HTTP personalizadas (`Headers`) en solicitudes de consulta.
 
-[ ] 317: Autenticación mediante Tokens en cabeceras de autorización (Authorization: Bearer).
+[ ] 317: Autenticación mediante Tokens en cabeceras de autorización (`Authorization: Bearer`).
 
-[ ] 318: Envío de formularios que contengan archivos adjuntos mediante la interfaz FormData.
+[ ] 318: Envío de formularios que contengan archivos adjuntos mediante la interfaz `FormData`.
 
-[ ] 319: Ejecución simultánea de múltiples promesas independientes mediante Promise.all().
+[ ] 319: Ejecución simultánea de múltiples promesas independientes mediante `Promise.all()`.
 
-[ ] 320: Resolución de la primera promesa completada mediante el método Promise.race().
+[ ] 320: Resolución de la primera promesa completada mediante el método `Promise.race()`.
 
-[ ] 321: Manejo colectivo de promesas que asegura la ejecución de todas con Promise.allSettled().
+[ ] 321: Manejo colectivo de promesas que asegura la ejecución de todas con `Promise.allSettled()`.
 
-[ ] 322: Cancelación de peticiones en curso utilizando la interfaz AbortController.
+[ ] 322: Cancelación de peticiones en curso utilizando la interfaz `AbortController`.
 
 [ ] 323: Construcción de un buscador interactivo que realiza solicitudes dinámicas según el texto escrito.
 
@@ -84,68 +110,70 @@ Fase-4-Asincronia-APIs/
 
 [ ] 330: Aplicación de consulta de datos que implementa almacenamiento en memoria temporal (Cache).
 
-331-360: Web APIs del Navegador
-[ ] 331: Almacenamiento persistente de datos simples usando localStorage (setItem, getItem, removeItem).
+### 331-360: Web APIs del Navegador
 
-[ ] 332: Almacenamiento temporal por sesión de usuario mediante sessionStorage.
+[ ] 331: Almacenamiento persistente de datos simples usando `localStorage` (`setItem`, `getItem`, `removeItem`).
 
-[ ] 333: Guardado y lectura de estructuras complejas serializando datos con JSON.stringify y JSON.parse.
+[ ] 332: Almacenamiento temporal por sesión de usuario mediante `sessionStorage`.
 
-[ ] 334: Sincronización de estados entre múltiples pestañas mediante el evento storage.
+[ ] 333: Guardado y lectura de estructuras complejas serializando datos con `JSON.stringify` y `JSON.parse`.
 
-[ ] 335: Obtención de coordenadas geográficas de un dispositivo utilizando la API navigator.geolocation.
+[ ] 334: Sincronización de estados entre múltiples pestañas mediante el evento `storage`.
+
+[ ] 335: Obtención de coordenadas geográficas de un dispositivo utilizando la API `navigator.geolocation`.
 
 [ ] 336: Representación de ubicaciones del usuario mediante mapas interactivos.
 
-[ ] 337: Optimización de carga diferida de imágenes (Lazy Loading) con IntersectionObserver.
+[ ] 337: Optimización de carga diferida de imágenes (Lazy Loading) con `IntersectionObserver`.
 
 [ ] 338: Detección de visibilidad de secciones para activar animaciones al desplazarse.
 
 [ ] 339: Implementación de despliegue infinito de contenido (Infinite Scroll) con Intersection Observer.
 
-[ ] 340: Copia de texto directo al portapapeles utilizando la API navigator.clipboard.
+[ ] 340: Copia de texto directo al portapapeles utilizando la API `navigator.clipboard`.
 
 [ ] 341: Lectura de datos desde el portapapeles del sistema previa autorización del usuario.
 
-[ ] 342: Generación de alertas nativas del sistema operativo mediante la API Notification.
+[ ] 342: Generación de alertas nativas del sistema operativo mediante la API `Notification`.
 
 [ ] 343: Control de reproducción e intensidad de sonido mediante la API Web Audio.
 
-[ ] 344: Reconocimiento de voz a texto utilizando la API webkitSpeechRecognition.
+[ ] 344: Reconocimiento de voz a texto utilizando la API `webkitSpeechRecognition`.
 
-[ ] 345: Conversión de texto escrito a voz parlante mediante la API speechSynthesis.
+[ ] 345: Conversión de texto escrito a voz parlante mediante la API `speechSynthesis`.
 
-[ ] 346: Detección de la orientación y movimiento físico del dispositivo mediante DeviceOrientationEvent.
+[ ] 346: Detección de la orientación y movimiento físico del dispositivo mediante `DeviceOrientationEvent`.
 
-[ ] 347: Uso de la API de Vibración (navigator.vibrate) para respuestas táctiles en móviles.
+[ ] 347: Uso de la API de Vibración (`navigator.vibrate`) para respuestas táctiles en móviles.
 
-[ ] 348: Interceptor de estado de la batería mediante la API navigator.getBattery.
+[ ] 348: Interceptor de estado de la batería mediante la API `navigator.getBattery`.
 
 [ ] 349: Gestión del estado de la pantalla para evitar que se apague mediante la API Screen Wake Lock.
 
-[ ] 350: Compartir contenidos dinámicos con aplicaciones nativas mediante la API navigator.share.
+[ ] 350: Compartir contenidos dinámicos con aplicaciones nativas mediante la API `navigator.share`.
 
-[ ] 351: Captura de imágenes fijas directamente desde la cámara web del usuario usando getUserMedia.
+[ ] 351: Captura de imágenes fijas directamente desde la cámara web del usuario usando `getUserMedia`.
 
-[ ] 352: Grabación de clips de audio desde el micrófono usando la interfaz MediaRecorder.
+[ ] 352: Grabación de clips de audio desde el micrófono usando la interfaz `MediaRecorder`.
 
 [ ] 353: Manipulación directa de imágenes en lienzo utilizando la API de Canvas 2D.
 
 [ ] 354: Extracción de colores dominantes de una imagen mediante Canvas.
 
-[ ] 355: Control del historial de navegación sin recargar la página mediante history.pushState y popstate.
+[ ] 355: Control del historial de navegación sin recargar la página mediante `history.pushState` y `popstate`.
 
 [ ] 356: Almacenamiento e inspección de cookies de sesión mediante código JavaScript puro.
 
 [ ] 357: Implementación de un temporizador en segundo plano que no pierde precisión mediante Web Workers.
 
-[ ] 358: Medición de tiempos de ejecución de fragmentos de código mediante performance.now().
+[ ] 358: Medición de tiempos de ejecución de fragmentos de código mediante `performance.now()`.
 
-[ ] 359: Detección de la velocidad de conexión a Internet a través de navigator.connection.
+[ ] 359: Detección de la velocidad de conexión a Internet a través de `navigator.connection`.
 
 [ ] 360: Creación de una libreta de notas local completa guardando y recuperando datos en Web Storage.
 
-361-400: Componentes UI Interactivos
+### 361-400: Componentes UI Interactivos
+
 [ ] 361: Diálogo modal accesible con atrapado de foco (Focus Trap) y cierre con la tecla Escape.
 
 [ ] 362: Modal de confirmación genérico reutilizable que devuelve una Promesa con la respuesta.
@@ -225,3 +253,35 @@ Fase-4-Asincronia-APIs/
 [ ] 399: Filtro de catálogo por múltiples atributos concurrentes (categoría, precio, calificación).
 
 [ ] 400: Librería UI modular compilada con múltiples componentes interactivos reutilizables.
+
+---
+
+## 🛠️ Estándar por Ejercicio
+
+Cada ejercicio debe contener su propia carpeta aislada para garantizar modularidad:
+
+```text
+ejercicio-301/
+├── index.html   # Estructura semántica HTML5
+├── styles.css   # Estilos específicos del ejercicio
+├── app.js       # Lógica JavaScript (si aplica)
+└── README.md    # Enunciado, conceptos clave, trampas comunes y soluciones
+```
+
+---
+
+## 📊 Progreso
+
+- [ ] Ejercicios 301-330: Asincronía y Fetch API
+- [ ] Ejercicios 331-360: Web APIs del Navegador
+- [ ] Ejercicios 361-400: Componentes UI Interactivos
+- [ ] **Fase 4 completa (301 - 400): [0%]**
+
+---
+
+## 🔗 Navegación
+
+- [← Volver a la Ruta Maestra Frontend](../Readme.md)
+- [📁 Fase 3: DOM, Eventos y Animaciones →](./Fase-3/Readme.md)
+- [📁 Fase 5: JS Avanzado y Proyectos →](./Fase-5/Readme.md)
+- [🏠 Índice principal del repositorio](../../Readme.md)
