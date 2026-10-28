@@ -12,3 +12,11 @@ body {
     padding: 1rem;
     background: #fafafa;
 }
+
+ul {
+    /* Devuelve las viñetas por defecto */
+    list-style-type: disc; 
+    
+    /* Aplica el espacio/sangría a la izquierda para cada nivel */
+    padding-left: 24px; /* o 40px si prefieres más separación */
+}
