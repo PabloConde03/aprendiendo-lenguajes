@@ -1,13 +1,42 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 11 - Aprendiendo HTML5, CSS3 y JavaScript</title>
+    <title>Ejercicio 011 - Código en línea y en bloque</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!-- Contenido del ejercicio 11 -->
-    <script src="app.js" defer></script>
+    <header>
+        <h1>Uso de Código en HTML5</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Código en línea</h2>
+            <p>
+                Para iniciar un repositorio local en Git se utiliza el comando <code>git init</code>. En JavaScript, la
+                instrucción <code>console.log()</code> imprime datos por consola.
+            </p>
+        </section>
+
+        <section>
+            <h2>Bloque de código preformateado</h2>
+            <p>Ejemplo de función básica en JavaScript:</p>
+
+            <pre><code>function saludar(nombre) {
+  if (!nombre) {
+    return "Hola, mundo";
+  }
+  return `Hola, ${nombre}`;
+}
+
+// Llamada de prueba
+console.log(saludar("Pablo"));</code></pre>
+        </section>
+    </main>
 </body>
+
 </html>
