@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-content;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ffffff;
+}
+
+#box1 {
+    align-items: center;
+    size: 400px;
+    width: auto;
+    padding: 50px;
+}
+
+#box1 img {
+  width: 400px; /* Ajusta este valor al ancho que quieras */
+  height: auto;  /* Mantiene las proporciones sin deformar la imagen */
+}
+
+#box23 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Hace que ambas cajas arranquen exactamente a la misma altura */
+  gap: 40px; /* Espacio horizontal entre box2 y box3 */
+}
+
+#box2, #box3 {
+  width: 200px; /* Ancho fijo */
+}
