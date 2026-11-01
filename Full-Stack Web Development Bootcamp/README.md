@@ -68,8 +68,8 @@ Selectores, cascada, herencia, modelo de caja, posicionamiento, Flexbox, Grid y 
 
 2.Entra al directorio del ejercicio o proyecto que deseas consultar (por ejemplo, el Capstone de HTML): 
 
-```bash
-cd "01. HTML/Project"
+   ```bash
+   cd "01. HTML/Project"
 
 
 3. Abre el archivo index.html en tu navegador habitual o usa la extensión Live Server en VS Code.
