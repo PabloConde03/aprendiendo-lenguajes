@@ -13,7 +13,7 @@
 
 ## 📌 Descripción
 
-Repositorio dedicado a documentar mi progresión paso a paso a lo largo de las 62+ horas de formación técnica[cite: 1, 2]. Cubre desde fundamentos de maquetación semántica y diseño visual hasta arquitecturas backend completas, bases de datos relacionales y librerías modernas de interfaz.
+Repositorio dedicado a documentar mi progresión paso a paso a lo largo de las 62+ horas de formación técnica. Cubre desde fundamentos de maquetación semántica y diseño visual hasta arquitecturas backend completas, bases de datos relacionales y librerías modernas de interfaz.
 
 ---
 
