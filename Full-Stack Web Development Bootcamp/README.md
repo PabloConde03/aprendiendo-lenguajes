@@ -66,7 +66,7 @@ Selectores, cascada, herencia, modelo de caja, posicionamiento, Flexbox, Grid y 
    git clone [https://github.com/PabloConde03/aprendiendo-lenguajes.git](https://github.com/PabloConde03/aprendiendo-lenguajes.git)
 
 
-2.Entra al directorio del ejercicio o proyecto que deseas consultar (por ejemplo, el Capstone de HTML): 
+2. Entra al directorio del ejercicio o proyecto que deseas consultar (por ejemplo, el Capstone de HTML): 
    ```bash
    cd "01. HTML/Project"
    ```
