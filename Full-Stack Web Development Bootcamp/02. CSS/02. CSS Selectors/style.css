@@ -5,3 +5,29 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+
+p {
+  color: red;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.note {
+  font-family: Arial, sans-serif;
+}
+
+li[value] {
+  color: blue;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+#id-selector-demo {
+  color: green;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  text-align: center;
+}
