@@ -73,6 +73,6 @@ Selectores, cascada, herencia, modelo de caja, posicionamiento, Flexbox, Grid y 
 
 3. Abre el archivo index.html en tu navegador habitual o usa la extensión Live Server en VS Code.
 
-👤 Autor
+## 👤 Autor
 
 Pablo Conde - @PabloConde03
