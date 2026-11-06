@@ -1,3 +1,6 @@
+---
+
+
 Enunciado del Proyecto: Portal Dashboard de Métricas Cloud
 Diseña e implementa una página estática para un panel de supervisión de servidores e infraestructura web utilizando exclusivamente HTML5 semántico y CSS3 puro (sin Bootstrap, Tailwind ni librerías JS).
 
@@ -56,3 +59,5 @@ Entregables del Reto
 index.html: Archivo con código limpio, indentado, validado según el estándar W3C y sin estilos en línea.
 
 styles.css: Hoja de estilos externa organizada por secciones (Reset/Base, Variables, Layout, Componentes, Media Queries).
+
+---
