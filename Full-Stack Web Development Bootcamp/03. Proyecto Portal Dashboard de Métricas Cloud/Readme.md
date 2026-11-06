@@ -51,6 +51,9 @@ Implementa al menos dos breakpoints (`@media queries`):
 
 Entregables del Reto
 
-index.html: Archivo con código limpio, indentado, validado según el estándar W3C y sin estilos en línea.
+- **indexhtml** — Archivo con código limpio, indentado, validado según el estándar W3C y sin estilos en línea.
+- **stylescss** — Hoja de estilos externa organizada por secciones (Reset/Base, Variables, Layout, Componentes, Media Queries).
 
-styles.css: Hoja de estilos externa organizada por secciones (Reset/Base, Variables, Layout, Componentes, Media Queries).
+![Status](https://img.shields.io/badge/Status-Completed-2EA44F?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-Valid-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Valid-1572B6?style=for-the-badge&logo=css3&logoColor=white)
