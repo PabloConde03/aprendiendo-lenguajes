@@ -1,4 +1,8 @@
-Enunciado del Proyecto: Portal Dashboard de Métricas Cloud
+![Made with HTML5](https://img.shields.io/badge/Made%20with-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-121212?style=for-the-badge)
+
+# Enunciado del Proyecto: Portal Dashboard de Métricas Cloud
 Diseña e implementa una página estática para un panel de supervisión de servidores e infraestructura web utilizando exclusivamente HTML5 semántico y CSS3 puro (sin Bootstrap, Tailwind ni librerías JS).
 
 Requisitos Técnicos
