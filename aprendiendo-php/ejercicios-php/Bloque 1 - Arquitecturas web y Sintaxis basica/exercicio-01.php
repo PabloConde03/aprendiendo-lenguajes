@@ -9,3 +9,12 @@
 //
 // Resultado esperado: Ejecutar este archivo debería demostrar el concepto
 // mencionado en la descripción del ejercicio.
+
+
+$mystring = "Hola mundo";
+$myint = 1;
+$myfloat = 3.14;
+$myboolean = true;
+
+echo $mystring . " - " . $myint . " - " . $myfloat . " - " . ($myboolean ? "true" : "false") . "\n";
+echo "{$mystring} - {$myint} - {$myfloat} - " . ($myboolean ? "true" : "false");
